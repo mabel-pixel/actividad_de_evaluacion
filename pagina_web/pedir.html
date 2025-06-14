@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Horno Magico</title>
+    <link rel="stylesheet" href="../pagina_web/estilos.css">
+</head>
+<body bgcolor="f7ecde">
+    <nav class="nav">
+        <ul class="menu">
+            <li><a href="../pagina_web/Inicio.html">Inicio</a></li>
+            <li><a href="../pagina_web/sobre_nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="../pagina_web/menu.html">Menu</a>
+                <ul id="menu-desplegable">
+                    <li><a href="../pagina_web/menu.html#Postres">Postres</a></li>
+                    <li><a href="../pagina_web/menu.html#Bebidas">Bebidas</a></li>
+                    <li><a href="../pagina_web/menu.html#Especialidades">Especialidades</a></li>
+                    <li><a href="../pagina_web/menu.html#Opciones_Especiales">Opciones especiales</a></li>
+                </ul>
+            </li>
+            <li><a href="../pagina_web/pedir.html">Pedir</a></li>
+            <li><a href="../pagina_web/preguntas.html">Preguntas</a></li>
+        </ul>
+    </nav>
+    <div id="portada"><img src="../pagina_web/pedir.jpg" width="100%"></div><br>
+    <form id="formulario">
+        <h1>Informacion del cliente</h1>
+        <label for="nombre">Nombre: <input type="text" id="nombre" name="nombre" required></label><br>
+        <label for="correo">Correo electronico: <input type="email" id="correo" name="correo" required></label><br>
+        <label for="telefono">Telefono: <input type="tel" id="telefono" name="telefono" required></label><br>
+        <h1>Postres</h1>
+        <label for="pasteles">Pasteles:</label>
+        <select id="pasteles" name="pasteles">
+            <option value="nada"></option>
+            <option value="pastel-chocolate">Pastel de Chocolate</option>
+            <option value="pastel-vainilla">Pastel de Vainilla</option>
+            <option value="pastel-frutas">Pastel de Frutas</option>
+        </select>
+        <label for="cantidad">Cantidad: <input type="number" id="cantidad" name="cantidad"></label><br>
+        <label for="pasteles-eventos">Pasteles para eventos:</label>
+        <select id="pasteles-eventos" name="pasteles-eventos">
+            <option value="nada"></option>
+            <option value="pastel-cumpleaños">Pastel de Cumpleaños</option>
+            <option value="pastel-bodas">Pastel de Bodas</option>
+            <option value="pastel-anversario">Pastel de Aniversario</option>
+        </select>
+        <label for="cantidad">Cantidad: <input type="number" id="cantidad" name="cantidad"></label><br>
+        <label for="pasteles-eventos">Galletas:</label>
+        <select id="galletas" name="galletas">
+            <option value="nada"></option>
+            <option value="galletas-chocolate">Galletas de Chocolate</option>
+            <option value="galletas-vainilla">Galletas de Vainilla</option>
+            <option value="galletas-frutas">Galletas de Frutas</option>
+        </select>
+        <label for="cantidad">Cantidad: <input type="number" id="cantidad" name="cantidad"></label><br>
+        <label for="brownies-muffins">Brownies y muffins:</label>
+        <select id="brownies-muffins" name="brownies-muffins">
+            <option value="nada"></option>
+            <option value="brownie-chocolate">Brownie de Chocolate</option>
+            <option value="cupcakes">Cupcakes</option>
+            <option value="muffin-chocolate">Muffin de Chocolate</option>
+        </select>
+        <label for="cantidad">Cantidad: <input type="number" id="cantidad" name="cantidad"></label><br>
+        <h1>Bebidas</h1>
+        <label for="cafe">Café:</label>
+        <select id="cafe" name="cafe">
+            <option value="nada"></option>
+            <option value="cafe-expresso">Café Expresso</option>
+            <option value="cafe-latte">Café Latte</option>
+            <option value="cafe-cappuccino">Café Cappucino</option>
+            <option value="cafe-frappe">Café Frappe</option>
+        </select>
+        <label for="cantidad">Cantidad: <input type="number" id="cantidad" name="cantidad"></label><br>
+        <label for="te">Té:</label>
+        <select id="te" name="te">
+            <option value="nada"></option>
+            <option value="te-verde">Té Verde</option>
+            <option value="te-herbal">Té Herbal</option>
+        </select>
+        <label for="cantidad">Cantidad: <input type="number" id="cantidad" name="cantidad"></label><br>
+        <label for="chocolate-caliente">Chocolate caliente:</label>
+        <select id="chocolate-caliente" name="chocolate-caliente">
+            <option value="nada"></option>
+            <option value="chocolate-clasico">Chocolate Caliente Clásico</option>
+            <option value="chocolate-crema">Chocolate Caliente con Crema</option>
+        </select>
+        <label for="cantidad">Cantidad: <input type="number" id="cantidad" name="cantidad"></label><br>
+        <h1>Especialidades</h1>
+        <label for="pasteles-especiales"> Pasteles especiales:</label>
+        <select id="pasteles-especiales" name="pasteles-especiales">
+            <option value="nada"></option>
+            <option value="pastel-velvet">Pastel de Red Velvet</option>
+            <option value="pastel-caramelo">Pastel de Caramelo</option>
+            <option value="pastel-fresa">Pastel de Fresa</option>
+        </select>
+        <label for="cantidad">Cantidad: <input type="number" id="cantidad" name="cantidad"></label><br>
+        <label for="pasteles-tematicos">Pasteles Temáticos:</label>
+        <select id="pasteles-tematicos" name="pasteles-tematicos">
+            <option value="nada"></option>
+            <option value="pasteles-superheroes">Pasteles de superhéroes</option>
+            <option value="pasteles-princesas">Pasteles de princesas</option>
+            <option value="pasteles-deportes">Pasteles de deportes</option>
+        </select>
+        <label for="cantidad">Cantidad: <input type="number" id="cantidad" name="cantidad"></label><br>
+        <h1>Opciones Especiales</h1>
+        <label for="opciones-especiales">Opciones Especiales:</label>
+        <select id="opciones-especiales" name="opciones-especiales">
+            <option value="nada"></option>
+            <option value="pasteles-gluten">Pasteles sin gluten</option>
+            <option value="pasteles-veganos">Pasteles veganos</option>
+            <option value="pasteles-azucar">Pasteles sin azúcar</option>
+        </select><br><br>
+        <label for="cantidad">Cantidad: <input type="number" id="cantidad" name="cantidad"></label><br>
+        <label for="fecha-entrega">Fecha entrega: <input type="date" id="fecha-entrega" name="fecha-entrega" required></label><br>
+        <label for="mensaje">Notas: <textarea id="mensaje" name="mensaje" ></textarea></label><br>
+        <button type="submit">Enviar Pedido</button>
+    </form>
+
+    <footer class="pie">
+        <div class="info"><center>
+            <p>Calle delicias 123, Col. Centro, Ciudad de Mexico, 01000</p>
+            <p>+52 55 1234 5678</p>
+            <p>elhornomagico@gmail.com</p>
+            <p>Abierto de 8:00am a 16:00pm</p>
+            <p>©elhornomagico</p>
+        </center>
+        </div>
+    </footer>
+    
+</body>
+</html>
