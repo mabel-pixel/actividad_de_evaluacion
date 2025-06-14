@@ -1,0 +1,237 @@
+#portada{
+    background-color: #ead0d1;
+    margin: 0%;
+}
+.imagenes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pastel1{
+    transition: transform 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pastel1:hover{
+    transform: scale(1.1);
+}
+.imagenes span{
+    font-size: 25px;
+    color: #fdb3a4;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.imagenes p{
+    font-size: 15px;
+    color: #3f251f;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+#texto1{
+    align-items: center;
+    margin-left: 30%;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+}
+.nav {
+    background-color: #b8cec2;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+#titulo{
+    margin: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fdb3a4;
+}
+#texto1{
+    margin: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #3f251f;
+    font-size: 15px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu li {
+    margin: 0 10px;
+    position: relative;
+    display: inline-block;
+}
+.menu a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 18px;
+    padding: 14px 20px;
+    display: block;
+}
+.menu a:hover {
+    background-color: #d1dbcd;
+    transition: background-color 0.3s;
+}
+.pie{
+    background-color: #b8cec2;
+    padding: 10px;
+}
+.info{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    align-items: center;
+}
+#texto2{
+    margin: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #3f251f;
+    font-size: 20px;
+    align-items: center;
+}
+.Historia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#img{
+    align-items: center;
+    margin-right: 15%;
+}
+#texto3{
+    margin: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #3f251f;
+    font-size: 20px;
+    align-items: center;
+    margin-right: 1%;
+}
+#img2{
+    align-items: center;
+    margin-left: 15%;
+}
+#texto4{
+    margin: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #3f251f;
+    font-size: 20px;
+    align-items: center;
+}
+#texto5{
+    margin: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #3f251f;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 25%;
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #b8cec2;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.menu li:hover ul{
+    display: block;
+}
+#menu-desplegable li{
+    display: block;
+}
+.pastel2{
+    transition: transform 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15%;
+}
+.pastel2:hover{
+    transform: scale(1.1);
+}
+.pastel3{
+    transition: transform 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15%;
+}
+.pastel3:hover{
+    transform: scale(1.1);
+}
+#formulario{
+    margin: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #3f251f;
+    font-size: 20px;
+}
+.pedir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#encabezado{
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    top:0;
+    background-color: #b8cec2;
+    display: inline-block;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#formulario{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff9f2;
+    border: 1px solid #817e7a;
+    border-radius: 10px;
+}
+label{
+    display: block;
+    margin-bottom: 10px ;
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="date"]{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #817e7a;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 1px solid #817e7a;
+    border-radius: 5px;
+}
+button[type="submit"]{
+    background-color: #b8cec2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: #d1dbcd;
+}
+#texto6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #3f251f;
+    font-size: 20px;
+}
+#preguntas{
+    max-width: 1000px;
+    margin: 40px auto;
+}
